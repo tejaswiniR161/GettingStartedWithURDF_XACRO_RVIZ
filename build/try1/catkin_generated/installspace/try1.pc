@@ -1,0 +1,8 @@
+prefix=/home/txr177/Desktop/lab4/catkin_ws/install
+
+Name: try1
+Description: Description of try1
+Version: 0.0.0
+Cflags: 
+Libs: -L/home/txr177/Desktop/lab4/catkin_ws/install/lib 
+Requires: 
