@@ -54,7 +54,6 @@
 
 <link name="laser_horiz">
     <visual>
-      <parent link="base"/>
       <geometry>
         <cylinder length="0.072" radius="0.052"/>
       </geometry>
@@ -62,6 +61,7 @@
       <material name="white"/>
     </visual>
   </link>
+
 <link name="wheel_left">
     <visual>
       <geometry>
@@ -96,5 +96,6 @@
 <parent link="base"/>
 <child link="wheel_left"/>
 </joint>
+
 </robot>
   

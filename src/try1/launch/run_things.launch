@@ -1,5 +1,5 @@
 <launch>
-<arg name="filev1.urdf" default="filev1.urdf" />
+<arg name="file" default="new.urdf" />
 
 <arg name="file" default="$(find try1)/urdf/$(arg filev1.urdf)" />
 <!-- Use the file argument as the name of the file used lto set the
